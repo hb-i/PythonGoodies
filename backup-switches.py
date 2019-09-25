@@ -9,7 +9,7 @@ i = 0
 html = '<table border="1" class="fr-alternate-rows" style="height: 107px; width: 46%; border-style: solid;"> <tbody>'
 
 
-# read the csv and put it into a dict object
+# read the csv and put it into a dict collection
 with open("C:\\temp\\switches.csv") as f:
     reader = csv.DictReader (f)
     data =[r for r in reader]
